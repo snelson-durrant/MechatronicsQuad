@@ -42,18 +42,18 @@ int moveServo(Servo servo, int& pos, int& ppos) {
 void setup() {
   
   // initialize servos
-  servo01.attach();
-  servo02.attach();
-  servo03.attach();
-  servo04.attach();
-  servo05.attach();
-  servo06.attach();
-  servo07.attach();
-  servo08.attach();
-  servo09.attach();
-  servo10.attach();
-  servo11.attach();
-  servo12.attach();
+  servo01.attach(1);
+  servo02.attach(2);
+  servo03.attach(3);
+  servo04.attach(4);
+  servo05.attach(5);
+  servo06.attach(6);
+  servo07.attach(7);
+  servo08.attach(8);
+  servo09.attach(9);
+  servo10.attach(10);
+  servo11.attach(11);
+  servo12.attach(12);
   delay(20);
 
   // initial positions
